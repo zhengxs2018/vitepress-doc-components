@@ -22,6 +22,10 @@
     "_phase:format": "prettier \"**/*.{cjs,ts,tsx,vue}\" --loglevel=warn --plugin=@trivago/prettier-plugin-sort-imports",
     "_phase:cspell": "cspell \"**/*.{cjs,ts,tsx,json,vue,md}\""
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "peerDependencies": {
     "vitepress": "*",
     "vue": "3"
