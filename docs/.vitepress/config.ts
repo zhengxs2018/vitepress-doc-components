@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
   lang: 'zh-CN',
+  base: '/vitepress-doc-components/',
   title: 'Vitepress 文档组件',
   description: '日常使用的 Vitepress 文档组件',
   themeConfig: {
