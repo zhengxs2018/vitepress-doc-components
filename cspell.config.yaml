@@ -1,0 +1,26 @@
+version: "0.2"
+ignorePaths:
+  - archive
+  - dist
+  - node_modules
+dictionaries:
+  - en_US
+  - softwareTerms
+  - bash
+  - node
+  - npm
+  - html
+  - css
+  - typescript
+  - filetypes
+words:
+  - loglevel
+  - npmmirror
+  - preinstall
+  - tsdoc
+  - vitepress
+  - vnode
+  - whyframe
+ignoreWords:
+  - zhengxs
+  - trivago

@@ -1,0 +1,22 @@
+.vdc-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vdc-box-container .vdc-box {
+  background-color: var(--vp-c-bg-soft);
+  transition: color 0.5s, background-color 0.5s;
+  padding: 28px 36px;
+  border-radius: 8px;
+  flex: 0 32%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .vdc-box-container .vdc-box {
+    flex: 0 100%;
+    margin-bottom: 20px;
+  }
+}
